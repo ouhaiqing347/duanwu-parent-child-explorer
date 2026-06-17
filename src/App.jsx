@@ -25,7 +25,7 @@ const stations = [
     description:
       "农历五月初五是端午节。关于端午的来历，流传最广的是纪念爱国诗人屈原。今天我们从故事出发，理解节日背后的情感。",
     parentPrompt: "孩子可以想一想：为什么人们会把一个人的故事，记成一个节日？",
-    image: assetUrl("assets/station-origin-island.png"),
+    image: assetUrl("assets/station-origin-island.webp"),
     icon: GiScrollUnfurled,
     position: { left: "49%", top: "32%" },
     color: "red",
@@ -39,7 +39,7 @@ const stations = [
     description:
       "赛龙舟需要鼓手、舵手和桨手配合。孩子可以从鼓点和划桨节奏里，看到集体协作的力量。",
     parentPrompt: "问问孩子：如果你在龙舟上，会选择当鼓手、桨手还是舵手？为什么？",
-    image: assetUrl("assets/station-dragon-boat.png"),
+    image: assetUrl("assets/station-dragon-boat.webp"),
     icon: GiBoatFishing,
     position: { left: "64%", top: "29%" },
     color: "red",
@@ -53,7 +53,7 @@ const stations = [
     description:
       "粽子常用粽叶、糯米、红枣或豆沙等材料制作。不同地区还有咸粽、甜粽等口味差异。",
     parentPrompt: "和孩子一起观察：粽叶为什么能包住米？三角形是怎么折出来的？",
-    image: assetUrl("assets/station-zongzi-kitchen.png"),
+    image: assetUrl("assets/station-zongzi-kitchen.webp"),
     icon: GiCook,
     position: { left: "58%", top: "53%" },
     color: "green",
@@ -67,7 +67,7 @@ const stations = [
     description:
       "端午正值仲夏，古人会在门口悬挂艾草、菖蒲，表达驱虫避疫、守护家人的朴素愿望。",
     parentPrompt: "带孩子闻一闻艾草香气，聊聊古人为什么会把植物和健康联系起来。",
-    image: assetUrl("assets/station-mugwort-gate.png"),
+    image: assetUrl("assets/station-mugwort-gate.webp"),
     icon: FaLeaf,
     position: { left: "79%", top: "43%" },
     color: "green",
@@ -81,7 +81,7 @@ const stations = [
     description:
       "端午不只有热闹的活动，也有诗词中的情感。读诗时可以关注节令、人物和画面。",
     parentPrompt: "让孩子找一找诗里出现了哪些节日线索：时间、食物、植物或人物。",
-    image: assetUrl("assets/station-poetry-pavilion.png"),
+    image: assetUrl("assets/station-poetry-pavilion.webp"),
     icon: FaBookOpen,
     position: { left: "48%", top: "68%" },
     color: "gold",
@@ -95,7 +95,7 @@ const stations = [
     description:
       "最后来到问答渡口。孩子可以先自己答，再和家长一起复盘每一道题背后的知识点。",
     parentPrompt: "答题后别急着看分数，先让孩子说说自己为什么这么选。",
-    image: assetUrl("assets/station-quiz-pier.png"),
+    image: assetUrl("assets/station-quiz-pier.webp"),
     icon: PiNotebookFill,
     position: { left: "78%", top: "67%" },
     color: "red",
@@ -256,7 +256,7 @@ export function App() {
     <main className="page-shell">
       <header className="site-header">
         <a className="brand-mark" href="#top" aria-label="返回首页">
-          <img src={assetUrl("assets/station-dragon-boat.png")} alt="" />
+          <img src={assetUrl("assets/station-dragon-boat.webp")} alt="" />
           <span>亲子龙舟探索课堂</span>
         </a>
         <nav className="top-nav" aria-label="主要导航">
@@ -280,7 +280,7 @@ export function App() {
       </header>
 
       <section className="hero-section" id="top">
-        <img className="hero-map" src={assetUrl("assets/hero-river-map.png")} alt="端午水岸学习地图" />
+        <img className="hero-map" src={assetUrl("assets/hero-river-map.webp")} alt="端午水岸学习地图" />
         <div className="hero-content">
           <p className="eyebrow">五月初五 · 端午安康</p>
           <h1>亲子龙舟探索课堂</h1>
@@ -470,7 +470,7 @@ export function App() {
             挑战小测验
           </button>
         </div>
-        <img src={assetUrl("assets/zongzi-steps.png")} alt="包粽子的六个步骤插画" />
+        <img src={assetUrl("assets/zongzi-steps.webp")} alt="包粽子的六个步骤插画" />
         <ol className="step-labels">
           {zongziSteps.map((step, index) => (
             <li key={step}>
@@ -514,7 +514,7 @@ export function App() {
 
       <section className="quiz-section" id="quiz">
         <div className="quiz-illustration">
-          <img src={assetUrl("assets/station-quiz-pier.png")} alt="问答渡口插画" />
+          <img src={assetUrl("assets/station-quiz-pier.webp")} alt="问答渡口插画" />
         </div>
         <div className="quiz-card">
           <p className="eyebrow">挑战小测验</p>

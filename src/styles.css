@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
   background:
     linear-gradient(rgba(247, 239, 223, 0.86), rgba(247, 239, 223, 0.9)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   -webkit-font-smoothing: antialiased;
 }
 
@@ -72,7 +72,7 @@ img {
   border-bottom: 1px solid rgba(72, 58, 32, 0.18);
   background:
     linear-gradient(rgba(250, 243, 229, 0.92), rgba(250, 243, 229, 0.86)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   backdrop-filter: blur(16px);
 }
 
@@ -280,7 +280,7 @@ img {
   border-radius: 8px;
   background:
     linear-gradient(rgba(255, 249, 236, 0.9), rgba(255, 249, 236, 0.82)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   box-shadow: var(--shadow);
 }
 
@@ -334,7 +334,7 @@ img {
   color: var(--ink);
   background:
     linear-gradient(rgba(255, 249, 236, 0.92), rgba(247, 235, 211, 0.9)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   box-shadow: 0 10px 18px rgba(52, 44, 28, 0.15);
   pointer-events: auto;
   transform: translate(-50%, -50%);
@@ -387,7 +387,7 @@ img {
   border-radius: 8px;
   background:
     linear-gradient(rgba(255, 250, 239, 0.96), rgba(251, 242, 224, 0.95)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   box-shadow: var(--shadow);
 }
 
@@ -498,7 +498,7 @@ img {
   border-radius: 8px;
   background:
     linear-gradient(rgba(255, 250, 238, 0.9), rgba(248, 239, 219, 0.9)),
-    url("../assets/paper-texture.png");
+    url("../assets/paper-texture.webp");
   box-shadow: 0 12px 30px rgba(55, 45, 25, 0.08);
 }
 
